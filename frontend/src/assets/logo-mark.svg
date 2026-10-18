@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Monare Constructions">
+  <title>Monare Constructions</title>
+  <rect x="0" y="0" width="64" height="64" rx="8" fill="#F26522"/>
+  <path d="M14 52 L32 22 L50 52 Z" fill="#FFFFFF"/>
+  <rect x="12" y="52" width="40" height="5" rx="2.5" fill="#FFFFFF"/>
+  <circle cx="32" cy="39" r="4" fill="#0E2A47"/>
+</svg>
