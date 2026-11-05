@@ -24,3 +24,28 @@ app.include_router(certificates.router)
 @app.get("/api/health")
 def health():
     return {"status": "ok"}
+
+# --- Auto-Seed Admin ---
+from .database import SessionLocal
+from .models import User, UserRole
+from .auth import hash_password
+
+@app.on_event("startup")
+def create_initial_admin():
+    db = SessionLocal()
+    try:
+        # Check if the admin already exists
+        if not db.query(User).filter(User.email == "admin@site.com").first():
+            admin = User(
+                email="admin@site.com",
+                full_name="Site Admin",
+                hashed_password=hash_password("admin123"),
+                role=UserRole.admin
+            )
+            db.add(admin)
+            db.commit()
+            print("✅ Auto-created admin user: admin@site.com / admin123")
+    except Exception as e:
+        print("❌ Error creating admin:", e)
+    finally:
+        db.close()
