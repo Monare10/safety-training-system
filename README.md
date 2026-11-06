@@ -1,4 +1,4 @@
-# 🦺 Monare Constructions — Site Safety Training & Compliance System
+# 🦺 Site Safety Training & Compliance System
 
 A full-stack web application designed for **Monare Constructions** to manage mandatory role-based safety training, track video progress, administer timed assessments, and issue digital compliance certificates to workers.
 
