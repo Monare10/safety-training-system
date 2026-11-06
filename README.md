@@ -1,10 +1,10 @@
-# 🦺 Site Safety Training & Compliance System
+# 🦺 Monare Constructions — Site Safety Training & Compliance System
 
 A full-stack web application designed for **Monare Constructions** to manage mandatory role-based safety training, track video progress, administer timed assessments, and issue digital compliance certificates to workers.
 
 ## 🚀 Live Deployment
-- **Frontend: https://safety-training-system-two.vercel.app/register
-- **Backend API:** [https://safety-training-system-xi4f.onrender.com/docs](https://safety-training-system-xi4f.onrender.com/docs) *(Replace with your actual Render URL)*
+- **Frontend:** [https://safety-training-system-two.vercel.app/register](https://safety-training-system-two.vercel.app/register)
+- **Backend API:** [https://safety-training-system-xi4f.onrender.com/docs](https://safety-training-system-xi4f.onrender.com/docs)
 
 ---
 
